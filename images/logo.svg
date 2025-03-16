@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#6a11cb"/>
+  <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#6a11cb" />
+    <stop offset="100%" stop-color="#2575fc" />
+  </linearGradient>
+  <circle cx="100" cy="100" r="95" fill="url(#logoGradient)"/>
+  
+  <!-- Color circles in the grid pattern -->
+  <circle cx="60" cy="60" r="25" fill="#FF5252" stroke="white" stroke-width="3"/>
+  <circle cx="140" cy="60" r="25" fill="#FFD740" stroke="white" stroke-width="3"/>
+  <circle cx="60" cy="140" r="25" fill="#4CAF50" stroke="white" stroke-width="3"/>
+  <circle cx="140" cy="140" r="25" fill="#2196F3" stroke="white" stroke-width="3"/>
+  <circle cx="100" cy="100" r="25" fill="#7E57C2" stroke="white" stroke-width="3"/>
+  
+  <!-- Connecting lines -->
+  <line x1="60" y1="60" x2="100" y2="100" stroke="white" stroke-width="5" stroke-opacity="0.7"/>
+  <line x1="140" y1="60" x2="100" y2="100" stroke="white" stroke-width="5" stroke-opacity="0.7"/>
+  <line x1="60" y1="140" x2="100" y2="100" stroke="white" stroke-width="5" stroke-opacity="0.7"/>
+  <line x1="140" y1="140" x2="100" y2="100" stroke="white" stroke-width="5" stroke-opacity="0.7"/>
+</svg>
